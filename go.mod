@@ -21,7 +21,7 @@ require (
 	github.com/mitchellh/hashstructure v1.1.0
 	github.com/robfig/cron v1.2.0
 	github.com/stretchr/testify v1.8.1
-	golang.org/x/mod v0.7.0
+	golang.org/x/mod v0.29.0
 	k8s.io/api v0.25.5
 	k8s.io/apiextensions-apiserver v0.25.5
 	k8s.io/apimachinery v0.25.5
@@ -123,12 +123,12 @@ require (
 	github.com/xlab/treeprint v1.1.0 // indirect
 	github.com/zclconf/go-cty v1.12.1
 	go.starlark.net v0.0.0-20221205180719-3fd0dac74452 // indirect
-	golang.org/x/crypto v0.4.0 // indirect
-	golang.org/x/net v0.7.0 // indirect
+	golang.org/x/crypto v0.45.0 // indirect
+	golang.org/x/net v0.47.0 // indirect
 	golang.org/x/oauth2 v0.3.0 // indirect
-	golang.org/x/sys v0.5.0 // indirect
-	golang.org/x/term v0.5.0 // indirect
-	golang.org/x/text v0.7.0 // indirect
+	golang.org/x/sys v0.38.0 // indirect
+	golang.org/x/term v0.37.0 // indirect
+	golang.org/x/text v0.31.0 // indirect
 	golang.org/x/time v0.3.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/genproto v0.0.0-20221207170731-23e4bf6bdc37 // indirect
@@ -159,4 +159,4 @@ replace (
 // sigs.k8s.io/kustomize/pkg/transformers/config => ./vendor/k8s.io/cli-runtime/pkg/kustomize/k8sdeps/transformer/config
 )
 
-go 1.19
+go 1.24.0
